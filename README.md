@@ -1,8 +1,8 @@
-# Intermediate exercise Olga RG
+# Random number game Olga RG
 
 ---
 
-Module 2 - Intermediate evaluation - Olga Rodríguez Garrucho
+Random number game by Olga Rodríguez Garrucho
 
 ---
 
