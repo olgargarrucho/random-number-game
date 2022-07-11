@@ -53,4 +53,4 @@ For a new game just press the reset button 'Volver a jugar' and enjoy :).
 
 ## Result
 
-To view the final´s result of exercise click on GitHub Pages of https://github.com/Adalab/modulo-2-evaluacion-intermedia-olguita2412/tree/main repository.
+To view the final´s result of exercise click on https://olguita2412.github.io/random-number-game/
