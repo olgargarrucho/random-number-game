@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100vh;
+}
+.body{
+    background-image: repeating-linear-gradient(rgb(88, 243, 249), rgb(187, 70, 250), rgb(249, 246, 88), rgb(88, 243, 249));
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.title{
+    padding: 20px 20px 5px 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: rgb(249, 246, 88);
+    transition: color ease 1s;     
+}
+
+.title:hover {
+    color: white;
+}
+
+.form{
+    padding: 5px 20px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.label-form{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    color: white;
+    text-align: center;
+
+}
+
+.input-form{
+    background-image: repeating-radial-gradient(rgb(252, 220, 243), rgb(249, 246, 88));
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    color: deeppink;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;
+    
+}
+
+.button{
+    background-image: repeating-radial-gradient(rgb(252, 220, 243), rgb(250, 70, 241));
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 7px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 10px;  
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container-paragraph{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph{
+    margin: 5px 20px;
+    padding: 5px;
+    border: solid 3px rgba(255, 255, 255, 0.21);;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.span{
+    color: white;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text{
+    font-size: 14px;
+    color: rgba(143, 39, 241, 0.21);
+}
+
+.footer__image{
+    width: 150px;
+}
+
+.bigger{
+    background-color: darkcyan;
+}
+
+.smaller{
+    background-color: rgb(218, 67, 175);
+}
+
+.error{
+    background-color: red;
+}
+
+.winner{
+    background-image: url(../images/confeti.gif);
+    height: 100vh;
+    
+}
+
+@media all and (max-width: 768px) {
+    .container{
+    flex-direction: column;
+    }
+    .container-paragraph{
+        order: 2;
+    }
+    .form{
+        order: 1;
+    }
+    
+}
